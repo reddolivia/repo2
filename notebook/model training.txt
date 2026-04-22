@@ -1,0 +1,10 @@
+model training
+
+1)import libraries
+2) preparing X and Y variables
+3) create column transformer with 3 type of transformers
+	 preprocess x variable
+4) separate dataset into train and test 
+5) create evaluate function to give all meatrics after model training
+6) list all models into tuple
+7) create train function  and insert the all list of models into the function

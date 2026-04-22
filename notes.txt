@@ -1,0 +1,7 @@
+1. Create the Virtual Envirenment
+
+
+
+
+
+2) problem statement, EDA, Model training
