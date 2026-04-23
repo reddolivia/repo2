@@ -8,3 +8,9 @@ model training
 5) create evaluate function to give all meatrics after model training
 6) list all models into tuple
 7) create train function  and insert the all list of models into the function
+
+
+
+
+
+3.1 Data Ingestion 

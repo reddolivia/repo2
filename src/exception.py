@@ -1,4 +1,5 @@
 import sys
+from logger import logging
 
 def error_message_detail(error, error_detail: sys):
     # sys.exc_info() returns (type, value, traceback)
@@ -20,12 +21,12 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-#if __name__ == "__main__":
-#    try:
-#        a = 1 / 0
-#    except Exception as e:
-#        # Pass 'e' (the error) and 'sys' (the module)
-#        raise CustomException(e, sys)  
+if __name__ == "__main__":
+    try:
+        a = 1 / 0
+    except Exception as e:
+       # Pass 'e' (the error) and 'sys' (the module)
+        raise CustomException(e, sys)  
 
 
 
